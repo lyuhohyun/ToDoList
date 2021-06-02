@@ -1,16 +1,23 @@
 <!DOCTYPE html>
-<html>
+<html lang="kr">
     <head>
         <link rel="stylesheet" href="style.css">
         <meta charset="utf-8">
-        <title>TODOLIST</title>
-    </head>
+            <title>TODOLIST</title>
     <body>
         <h1>To Do List</h1>
-        <div id="box"></div>
-        <input name="TextBox" type="text" placeholder="입력하세요." />
-        <button class="add" type="button">+</button>
+       
+        <div id ="container">
+            <input id = "inputBox" type="text" placeholder="입력하세요" />
+            <button id="add" type="button">+</button> 
+            <div id = "toDoList"></div>
+        </div>
+        
+        <script src="function.js"></script>
+        
         <h2>List</h2>
-        <ol id="list"> </ol>
+       
+        
     </body>
+    
 </html>
