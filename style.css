@@ -1,9 +1,15 @@
 h1   {
+        font-size: 50px;
         text-align: center;
-    }
-    body {
+        @import url('https://fonts.googleapis.com/css2?family=Nanum+Brush+Script&display=swap');
 
+      }
+    body {
+      text-align: center;
         background: linear-gradient( #424268, #96648F) fixed;
-      
+       font-family: 'Nanum Brush Script', cursive;
       }
       
+h2 {
+  font-size: 40px;
+}
